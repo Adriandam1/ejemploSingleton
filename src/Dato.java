@@ -11,7 +11,7 @@ public class Dato {
         this.edad= edad;
         this.otro= otro;
     }
-
+//kk
     public static Dato getInstance(){
         //static Dato miDatoUnico = new Dato ("Alumno", 18, "unico");
         return miDatoUnico;
