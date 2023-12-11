@@ -4,6 +4,7 @@ public class Dato {
 
     private String otro;
 
+    // esto es singleton
     static Dato miDatoUnico = new Dato ("Alumno", 18, "unico");
 
     private Dato(String nombre, int edad, String otro){
@@ -11,7 +12,7 @@ public class Dato {
         this.edad= edad;
         this.otro= otro;
     }
-//kk
+// esto es singleton
     public static Dato getInstance(){
         //static Dato miDatoUnico = new Dato ("Alumno", 18, "unico");
         return miDatoUnico;
